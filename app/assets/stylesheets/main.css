@@ -9,7 +9,7 @@ nav {
 
 .nav-item {
   border: none;
-  color: #33cc33;
+  color: #5cd65c;
   font-size: 150%;
   display: inline-block;
   padding: 20px;
@@ -33,12 +33,9 @@ button:focus, a:focus {
   outline: none;
 }
 
-.section-container:nth-child(odd) {
-  background-color: #002699;
-}
-
-.section-container:nth-child(even) {
-  background-color: #002db3;
+.section-container {
+  background-color: #5d7c36;
+  border-top: 2px solid #cc6600;
 }
 
 section {
@@ -73,7 +70,7 @@ section {
 }
 
 h1 {
-  color: #33cc33;
+  color: #5cd65c;
   margin-top: 0;
 }
 
