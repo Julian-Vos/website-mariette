@@ -33,13 +33,16 @@ button:focus, a:focus {
   outline: none;
 }
 
-.section-container {
-  background-color: #5d7c36;
+.section-container:nth-child(even) {
   border-top: 2px solid #cc6600;
 }
 
+.section-container:nth-child(odd) {
+  border-top: 2px solid #5d7c36;
+}
+
 section {
-  color: white;
+  color: black;
   font-size: 135%;
   margin: 0 auto;
   max-width: 1100px;
